@@ -1,0 +1,12 @@
+{
+    "message": "My Rule-Validation API",
+    "status": "success",
+    "data": {
+      "name": "Chukwuebuka Stanley Okonkwo",
+      "github": "@chemicalstan",
+      "email": "chemicalstan1@gmail.com",
+      "mobile": "08136512302",
+      "twitter": "@chemicalstan"
+    }
+  }
+  
