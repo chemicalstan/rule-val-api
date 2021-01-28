@@ -45,6 +45,7 @@ const failedValidation = async (req, res) => {
   errorRes.message = `field ${rule.field} failed validation.`;
   errorRes.data = resData;
   resData.validation.field = rule.field;
+  resData.validation.error = true;
   resData.validation.field_value = data[rule.field];
   resData.validation.condition = rule.condition;
   resData.validation.condition_value = rule.condition_value;
